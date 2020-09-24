@@ -1,10 +1,4 @@
 # EXPOSED FAKE CREDENTIALS
-variable aws_access_key {
-  default = "AKIA3a123JQYasdj4WGX"
-}
-variable aws_secret_key  {
-  default = "baFGG12J3xdf5/ksdfnASDjasHAn151l2KHmasdt"
-}
 variable "public_key_path" {
   description = <<DESCRIPTION
 Path to the SSH public key to be used for authentication.

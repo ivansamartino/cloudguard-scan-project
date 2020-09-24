@@ -2,6 +2,13 @@ terraform {
   required_version = ">= 0.12"
 }
 
+variable aws_access_key {
+  default = "AKIA3a123JQYasdj4WGX"
+}
+variable aws_secret_key  {
+  default = "baFGG12J3xdf5/ksdfnASDjasHAn151l2KHmasdt"
+}
+
 provider "aws" {
   region = var.aws_region
 }
