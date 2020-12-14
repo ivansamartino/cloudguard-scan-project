@@ -1,0 +1,1 @@
+{"resource":{"aws_iam_role":{"role":{"name":"${var.name}","path":"${var.path}","assume_role_policy":"${var.assume_role_policy}"}}},"output":{"arn":{"value":"${aws_iam_role.role.arn}"},"name":{"value":"${aws_iam_role.role.name}"}},"variable":{"name":{},"path":{"default":"/"},"assume_role_policy":{}}}

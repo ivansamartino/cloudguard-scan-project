@@ -1,0 +1,1 @@
+{"resource":{"aws_kms_alias":{"alias":{"name":"${var.name}","target_key_id":"${var.target_key_id}"}}},"output":{"arn":{"value":"${aws_kms_alias.alias.arn}"},"target_key_arn":{"value":"${aws_kms_alias.alias.target_key_arn}"}},"variable":{"name":{},"target_key_id":{}}}

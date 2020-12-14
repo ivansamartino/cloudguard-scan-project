@@ -1,0 +1,1 @@
+{"resource":{"aws_cloudwatch_event_rule":{"event_rule":{"name":"${var.name}","description":"${var.description}","schedule_expression":"${var.schedule_expression}"}}},"output":{"arn":{"value":"${aws_cloudwatch_event_rule.event_rule.arn}"},"name":{"value":"${aws_cloudwatch_event_rule.event_rule.name}"}},"variable":{"name":{},"description":{},"schedule_expression":{}}}

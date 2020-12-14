@@ -1,0 +1,1 @@
+{"resource":{"aws_kms_key":{"key":{"description":"${var.description}","enable_key_rotation":"${var.enable_key_rotation}","policy":"${var.policy}"}}},"output":{"arn":{"value":"${aws_kms_key.key.arn}"},"key_id":{"value":"${aws_kms_key.key.key_id}"}},"variable":{"description":{},"enable_key_rotation":{"default":true},"policy":{}}}

@@ -1,0 +1,1 @@
+{"module":{"ssm_params":{"source":"../../ssm-params","params":{"vpc_id":"common","assessment_batch_results_ddb_id":"db"},"config":{"_env":"preqa","_owner":"eli","_project":"icarus"}}},"output":{"test":{"value":"${module.ssm_params.param_value[\"assessment_batch_results_ddb_id\"]}"}},"provider":{"aws":{"region":"us-west-1"}}}

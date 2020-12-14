@@ -1,0 +1,1 @@
+{"resource":{"aws_iam_policy":{"policy":[{"name":"${var.name}","path":"${var.path}"},"${var.policy}"]}},"output":{"arn":{"value":"${aws_iam_policy.policy.arn}"}},"variable":{"name":{},"path":{"default":"/"},"policy":{}}}

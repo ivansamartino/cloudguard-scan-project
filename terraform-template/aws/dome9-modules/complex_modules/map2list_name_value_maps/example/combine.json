@@ -1,0 +1,1 @@
+{"locals":{"task_defenitoin_vars":{"aaa":"AAA","bbb":"BBB","ccc":"CCC"}},"module":{"convert":{"source":"../../map2list_name_value_maps","input_map":"${local.task_defenitoin_vars}"}},"output":{"res":{"value":"${module.convert.result}"}}}

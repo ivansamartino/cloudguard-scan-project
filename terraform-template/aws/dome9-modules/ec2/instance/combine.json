@@ -1,0 +1,1 @@
+{"data":{"aws_ami":{"amzn_ami":{"most_recent":true,"filter":[{"name":"owner-alias","values":["amazon"]},{"name":"name","values":["amzn-ami-hvm-*"]}]}}},"resource":{"aws_instance":{"instance":{"ami":"${var.ami_id}","instance_type":"${var.instance_type}","tags":{"Name":"${var.instance_name}"}}}},"variable":{"name":{},"public_key":{}}}

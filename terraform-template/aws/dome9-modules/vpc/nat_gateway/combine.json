@@ -1,0 +1,1 @@
+{"resource":{"aws_nat_gateway":{"nat_gw":{"allocation_id":"${var.nat_eip}","subnet_id":"${var.nat_subnet_id}","tags":{"Name":"${var.nat_name}"}}}},"output":{"nat_gw_id":{"value":"${aws_nat_gateway.nat_gw.id}"}},"variable":{"nat_eip":{},"nat_subnet_id":{},"nat_name":{}}}

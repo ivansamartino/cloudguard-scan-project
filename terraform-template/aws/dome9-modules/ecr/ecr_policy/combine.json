@@ -1,0 +1,1 @@
+{"resource":{"aws_ecr_repository_policy":{"policy":[{"repository":"${var.repoisitory_name}"},"${var.policy}"]}},"variable":{"repoisitory_name":{},"policy":{}}}

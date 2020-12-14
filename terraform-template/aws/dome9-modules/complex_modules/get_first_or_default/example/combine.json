@@ -1,0 +1,1 @@
+{"module":{"empty_list":{"source":"../../get_first_or_default","input_list":[],"default":"def"},"not_empty_list":{"source":"../../get_first_or_default","input_list":["first"],"default":"def"}},"output":{"res":{"value":"${module.empty_list.result}"},"res1":{"value":"${module.not_empty_list.result}"}}}

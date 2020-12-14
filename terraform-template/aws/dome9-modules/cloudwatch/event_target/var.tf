@@ -1,0 +1,2 @@
+variable rule {}
+variable arn {}
